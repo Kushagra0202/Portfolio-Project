@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "mediaquries.css">
+</head>
+<body>
+   <nav id="desktop-nav">
+    <div class="logo">
+      Kushagra Dubey
+    </div>
+
+    <div>
+        <ul class="nav-links">
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#Skills">Skills</a></li>
+            <li> <a href="#project">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            Kushagra Dubey
+          </div> 
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggle()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li> <a href="#about" onclick="toggle()">About</a></li>
+            <li> <a href="#Skills" onclick="toggle()">Skills</a></li>
+            <li> <a href="#project" onclick="toggle()">Projects</a></li>
+            <li> <a href="#contact" onclick="toggle()">Contact</a></li>
+        </div>
+          </div>
+    </nav>
+    <section id="profile">
+        <div class="section-pic" >
+         <img id="picture" src="./assets/Picture.jpeg" alt="my-profile-pic"/>
+        </div>
+      <div class="section-text">
+        <p class="section-text-p1">Hello , I'm</p>
+        <h1 class="title">Kushagra Dubey</h1>
+        <p class="section-text-p2">Software Developer</p>
+        <div class="btn-container">
+               <button class="btn btn-color-2 " onclick="window.open('./assets/Resume Kushagra Dubey.pdf')">Download CV</button>
+               <button class="btn btn-color-1 " onclick="location.href='./#contact'">Contact Me</button>
+        </div>
+        <div class="social-container">
+           <img src="./assets/linkedin.png" alt="my linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/kushagradubey45'"/>
+           <img src="./assets/github.png" alt="my github" class="icon" onclick="location.href='https://github.com/Kushagra0202'"/>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section-text-p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="about-container">
+          <div class="section-pic">
+              <img id="picture" src="./assets/about-me.png" class="about-pic"/>
+          </div>
+          <div class="about-details-container">
+              <div class="details-container">
+                  <img src="./assets/experience.png" class="icon"/>
+                  <h3>Experience</h3>
+                  <p>2 years <br> Volunteer/Teacher <br> We Care Welfare Society</p>
+              </div>
+              <div class="details-container">
+                  <img src="./assets/education.png" class="icon"/>
+                  <h3>Education</h3>
+                  <p>Bachelor in Technology <br> LNCT, Bhopal</p>
+              </div>
+              <div class="details-container">
+                <img src="./assets/hobby.png" class="icon"/>
+                <h3>Hobbies</h3>
+                <p>Cricket <br> Football <br>Music</p>
+            </div>
+
+          </div>
+      </div>
+  </section>
+
+  <section id="Skills">
+          <p class="section-text-p1">Explore my </p>
+          <h1 class="title">Skills</h1>
+          <div class="expirence_detail_container">
+                    <div class="about-containers">
+                      <div class="details-containers">
+                        <h2 class="expirence_sub_title">Frontend development</h2>
+                        <div class="article_container">
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>HTML</h3>
+                              <p>Expirenced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>CSS</h3>
+                              <p>Expirenced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>Javascript</h3>
+                              <p>Expirenced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>React</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>Tailwind</h3>
+                              <p>Basic</p>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="details-containers">
+                        <h2 class="expirence_sub_title">Backend development</h2>
+                        <div class="article_container">
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>Java</h3>
+                              <p>Expirenced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>Node JS</h3>
+                              <p>Basic</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>Express JS</h3>
+                              <p>Basic</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img src="./assets/checkmark.png" alt="" class="icon">
+                            <div>
+                              <h3>MySQL</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+  </section>
+
+  <section id="project">
+        <p class="section-text-p1">Browse My</p>
+        <h1 class="title">Project</h1>
+        <div class="expirence_detail_container">
+          <div class="about-containers">
+            <div class="details-containers color-container">
+              <div class="article_container">
+               <img src="./assets/Project1.png" class="project-img">
+              </div>
+              <h2 class="expirence_sub_title project_title">ChatterUp</h2>
+              <div class="btn-container">
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kushagra0202/chatApp'">Github</button>
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://chat-app-henna-mu.vercel.app'">Visit</button>
+              </div>
+       </div>
+                <div class="details-containers color-container">
+                       <div class="article_container">
+                        <img src="./assets/Project3.png" class="project-img">
+                       </div>
+                       <h2 class="expirence_sub_title project_title">Currency Converter</h2>
+                       <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kushagra0202/currency-converter'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://currency-converter-cra-react.netlify.app/'">Visit</button>
+                       </div>
+                </div>
+                <div class="details-containers color-container">
+                       <div class="article_container">
+                        <img src="./assets/Project4.png" class="project-img">
+                       </div>
+                       <h2 class="expirence_sub_title project_title">Banking Interface</h2>
+                       <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kushagra0202/BankInterface'">Github</button>
+                       </div>
+                </div>
+                <div class="details-containers color-container">
+                       <div class="article_container">
+                        <img src="./assets/Project2.png" class="project-img">
+                       </div>
+                       <h2 class="expirence_sub_title project_title">ShopWebb</h2>
+                       <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kushagra0202/ShoppingWeb'">Github</button>
+                       </div>
+                </div>
+                <div class="details-containers color-container">
+                  <div class="article_container">
+                   <img src="./assets/Project5.png" class="project-img">
+                  </div>
+                  <h2 class="expirence_sub_title project_title">Big Breaking</h2>
+                  <div class="btn-container">
+                   <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kushagra0202/NewsApp'">Github</button>
+                   <button class="btn btn-color-2 project-btn" onclick="location.href='https://kushagra0202.github.io/NewsApp/'">Visit</button>
+                  </div>
+           </div>
+          </div>
+        </div>
+  </section>
+
+  <section id="contact" >
+          <p class="section-text-p1">Get in touch</p>
+          <h1 class="title">Contact me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                  <img src="./assets/email.png" class="icon contact-icon">
+                  <p ><a href="www.dubeykushagra2002@gmail.com">dubeykushagra2002@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                  <img src="./assets/Phone.png" class="icon contact-icon">
+                  <p >8770137836</p>
+            </div>
+            <div class="contact-info-container">
+                  <img src="./assets/linkedin.png" class="icon contact-icon">
+                  <p ><a href="https://www.linkedin.com/in/kushagradubey45">Linkedin</a></p>
+            </div>
+          </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="">
+        <ul class="nav-links">
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#Skills">Skills</a></li>
+          <li> <a href="#project">Projects</a></li>
+          <li> <a href="#contact">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; All right reserved</p>
+  </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
